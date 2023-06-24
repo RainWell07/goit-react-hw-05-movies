@@ -95,8 +95,8 @@ export default function MovieDetailsPage() {
     />
 )}
    <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
-    <h3 id="scroll">Useful Information</h3>
-    <BsFillArrowDownCircleFill stlye={{color: 'green'}} />
+   <BsFillArrowDownCircleFill style={{fill:'#067937'}} />
+    <h3 style={{color:'white'}} id="scroll">Useful Information</h3>
    </div>
    <StyledInformation>
     <DetailsPageLink to="cast">
